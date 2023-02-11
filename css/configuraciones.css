@@ -1,0 +1,61 @@
+html{
+    font-family: 'Courier New', Courier, monospace;
+    border: solid 1rem;
+    border-color: palevioletred;
+    margin: 1rem;
+    border-radius: 1rem;
+} 
+.imag{
+    width: 7rem;
+    height: 10rem;
+}
+.boton{
+    width: 3.5rem;
+    height: 3rem;
+    margin: 0 0 1.5rem 8.5rem;
+}
+.tex{
+    font-family: cursive;   
+    padding: 0.5rem 0 0 0;
+    margin: 5rem 2rem 1rem 2rem;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+.tex2{
+    padding: 0 0 0 2rem;
+    margin: 0 2rem 2rem 2rem;
+    text-align:right;
+    font-size: 1rem;
+    color: rgb(173, 14, 173);
+}
+
+@media (min-width:375px) {    
+    
+    img.imag{
+        margin: 0 0 0 0.5rem;
+        width: 17rem;
+        height: 14rem;
+    } 
+    .boton button{
+        width: 20rem;
+        height: 20rem;
+        font-size: 5rem;  
+}    
+}
+/*  
+@media (max-width:1366px) {    
+    img.imag{
+        margin: 2rem 0 0 25rem;
+        width: 17rem;
+        height: 8rem;
+    } 
+    img.img2{
+        margin: 0 0.5rem 1rem 25rem;
+        width: 17rem;
+        height: 8rem;
+    }   
+    .boton button{
+        font-size: 3rem;
+       
+}    
+}
